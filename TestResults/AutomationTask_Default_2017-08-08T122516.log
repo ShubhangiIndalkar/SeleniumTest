@@ -1,0 +1,43 @@
+﻿VS filter: testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button
+Discovering target: Default
+Discovering tests from assembly: G:\AutomationTask\AutomationTask\bin\Debug\AutomationTask.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AutomationTask/Default - 
+#1: Default - 
+#2: AutomationTask - 
+#18: HomePage - 
+#20: Should be able to see "Contact Us" tooltip on Contact us button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #20 from normal test queue 
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AutomationTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sindalkar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #20/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (36.2s)
+Thread#0:B:Then I am able to view tooltip 'Contact Us' on 'Contact us' button
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("Contact Us", "Contact us") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #20/0 is finished on thread #0 as Succeeded within 36.7687556 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

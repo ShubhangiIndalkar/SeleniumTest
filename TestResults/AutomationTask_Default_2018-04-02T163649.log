@@ -1,0 +1,43 @@
+﻿VS filter: testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page
+Discovering target: Default
+Discovering tests from assembly: G:\TestProject\AutomationTask\AutomationTask\bin\Debug\AutomationTask.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AutomationTask/Default - 
+#1: Default - 
+#2: AutomationTask - 
+#18: HomePage - 
+#19: Checked Menu's on Home Page - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #19 from normal test queue 
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AutomationTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sindalkar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #19/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (7.0s)
+Thread#0:B:Then I am able to view the menu 'WOMEN' , 'DRESSES' and 'T-SHIRTS'
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTheMenuAnd("WOMEN", "DRESSES", "T-SHIRTS") (63.9s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 72.5070751 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

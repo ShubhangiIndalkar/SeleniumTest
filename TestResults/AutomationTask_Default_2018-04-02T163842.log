@@ -1,0 +1,192 @@
+﻿VS filter: testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Women%22+tooltip+on+Women+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Dresses%22+tooltip+on+Dresses+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22T-shirts%22+tooltip+on+T-shirts+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Log+in+to+your+customer+account%22+tooltip+on+Sign+in+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22View+my+shopping+cart%22+tooltip+on+Cart+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+view+%27Add+to+Cart%27+and+%27More%27+button+when+mouse+over+on+product
+Discovering target: Default
+Discovering tests from assembly: G:\TestProject\AutomationTask\AutomationTask\bin\Debug\AutomationTask.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AutomationTask/Default - 
+#1: Default - 
+#2: AutomationTask - 
+#18: HomePage - 
+#19: Checked Menu's on Home Page - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page
+#20: Should be able to see "Contact Us" tooltip on Contact us button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button
+#21: Should be able to see "Women" tooltip on Women menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Women%22+tooltip+on+Women+menu
+#22: Should be able to see "Dresses" tooltip on Dresses menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Dresses%22+tooltip+on+Dresses+menu
+#23: Should be able to see "T-shirts" tooltip on T-shirts menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22T-shirts%22+tooltip+on+T-shirts+menu
+#24: Should be able to see "Log in to your customer account" tooltip on Sign in button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Log+in+to+your+customer+account%22+tooltip+on+Sign+in+button
+#25: Should be able to see "View my shopping cart" tooltip on Cart button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22View+my+shopping+cart%22+tooltip+on+Cart+button
+#26: Should be able to view 'Add to Cart' and 'More' button when mouse over on product - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+view+%27Add+to+Cart%27+and+%27More%27+button+when+mouse+over+on+product
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #19 from normal test queue 
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AutomationTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sindalkar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #19/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.1s)
+Thread#0:B:Then I am able to view the menu 'WOMEN' , 'DRESSES' and 'T-SHIRTS'
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTheMenuAnd("WOMEN", "DRESSES", "T-SHIRTS") (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #20 from normal test queue 
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 5.8472568 seconds
+Thread#0: Test #20/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.2s)
+Thread#0:B:Then I am able to view tooltip 'Contact Us' on 'Contact us' button
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("Contact Us", "Contact us") (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #21 from normal test queue 
+Thread#0:Scheduler: considering testitem #21 for thread 0
+Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #21 for thread 0
+Thread#0:Scheduler: Test #21 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #20/0 is finished on thread #0 as Succeeded within 5.5916888 seconds
+Thread#0: Test #21/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.2s)
+Thread#0:B:Then I am able to view tooltip 'Women' on 'WOMEN' menu
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("Women", "WOMEN") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #22 from normal test queue 
+Thread#0:Scheduler: considering testitem #22 for thread 0
+Thread#0:TestItem#22:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#22:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#22:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #22 for thread 0
+Thread#0:Scheduler: Test #22 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #21/0 is finished on thread #0 as Succeeded within 5.5095049 seconds
+Thread#0: Test #22/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.1s)
+Thread#0:B:Then I am able to view tooltip 'Dresses' on 'Dresses' menu
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("Dresses", "Dresses") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #23 from normal test queue 
+Thread#0:Scheduler: considering testitem #23 for thread 0
+Thread#0:TestItem#23:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#23:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#23:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #23 for thread 0
+Thread#0:Scheduler: Test #23 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #22/0 is finished on thread #0 as Succeeded within 5.4588395 seconds
+Thread#0: Test #23/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.4s)
+Thread#0:B:Then I am able to view tooltip 'T-shirts' on 'T-shirts' menu
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("T-shirts", "T-shirts") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #24 from normal test queue 
+Thread#0:Scheduler: considering testitem #24 for thread 0
+Thread#0:TestItem#24:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#24:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#24:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #24 for thread 0
+Thread#0:Scheduler: Test #24 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #23/0 is finished on thread #0 as Succeeded within 5.7397837 seconds
+Thread#0: Test #24/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (4.9s)
+Thread#0:B:Then I am able to view tooltip 'Log in to your customer account' on 'Sign in' button
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("Log in to your cu...", "Sign in") (0.3s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #25 from normal test queue 
+Thread#0:Scheduler: considering testitem #25 for thread 0
+Thread#0:TestItem#25:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#25:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#25:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #25 for thread 0
+Thread#0:Scheduler: Test #25 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #24/0 is finished on thread #0 as Succeeded within 5.4473914 seconds
+Thread#0: Test #25/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (4.9s)
+Thread#0:B:Then I am able to view tooltip 'View my shopping cart' on 'Cart' button
+Thread#0:T:done: HomePageSteps.ThenIAmAbleToViewTooltipAs("View my shopping ...", "Cart") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #26 from normal test queue 
+Thread#0:Scheduler: considering testitem #26 for thread 0
+Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #26 for thread 0
+Thread#0:Scheduler: Test #26 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #25/0 is finished on thread #0 as Succeeded within 5.2830938 seconds
+Thread#0: Test #26/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.2s)
+Thread#0:B:When I mouse over on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:error: Could not find element by: By.CssSelector: div#homefeatured > li:nth-of-type(1) > img
+Thread#0:B:Then I am able to view 'Add to cart' and 'More' button on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#26:Scheduler: reschedule tests for testitem #26
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #26
+Thread#0:Scheduler: considering testitem #26 for thread 0
+Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #26 for thread 0
+Thread#0:Scheduler: Test #26 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #26/0 is finished on thread #0 as Failed within 5.8245444 seconds
+Thread#0: Test #26/1 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.4s)
+Thread#0:B:When I mouse over on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:error: Could not find element by: By.CssSelector: div#homefeatured > li:nth-of-type(1) > img
+Thread#0:B:Then I am able to view 'Add to cart' and 'More' button on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #26
+Thread#0:Scheduler: considering testitem #26 for thread 0
+Thread#0:TestItem#26:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#26:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#26:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #26 for thread 0
+Thread#0:Scheduler: Test #26 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #26/1 is finished on thread #0 as Failed within 6.1237304 seconds
+Thread#0: Test #26/2 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (5.3s)
+Thread#0:B:When I mouse over on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:error: Could not find element by: By.CssSelector: div#homefeatured > li:nth-of-type(1) > img
+Thread#0:B:Then I am able to view 'Add to cart' and 'More' button on product 'Faded Short Sleeve T-shirts'
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #26/2 is finished on thread #0 as Failed within 5.8519262 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8 (test executions: 10)
+Succeeded: 7
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

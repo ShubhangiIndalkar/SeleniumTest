@@ -1,0 +1,188 @@
+﻿VS filter: testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Women%22+tooltip+on+Women+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Dresses%22+tooltip+on+Dresses+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22T-shirts%22+tooltip+on+T-shirts+menu | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Log+in+to+your+customer+account%22+tooltip+on+Sign+in+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22View+my+shopping+cart%22+tooltip+on+Cart+button | testpath:TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+view+%27Add+to+Cart%27+and+%27More%27+button+when+mouse+over+on+product
+Discovering target: Default
+Discovering tests from assembly: G:\TestProject\AutomationTask\AutomationTask\bin\Debug\AutomationTask.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AutomationTask/Default - 
+#1: Default - 
+#2: AutomationTask - 
+#18: HomePage - 
+#19: Checked Menu's on Home Page - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Checked+Menu%27s+on+Home+Page
+#20: Should be able to see "Contact Us" tooltip on Contact us button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Contact+Us%22+tooltip+on+Contact+us+button
+#21: Should be able to see "Women" tooltip on Women menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Women%22+tooltip+on+Women+menu
+#22: Should be able to see "Dresses" tooltip on Dresses menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Dresses%22+tooltip+on+Dresses+menu
+#23: Should be able to see "T-shirts" tooltip on T-shirts menu - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22T-shirts%22+tooltip+on+T-shirts+menu
+#24: Should be able to see "Log in to your customer account" tooltip on Sign in button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22Log+in+to+your+customer+account%22+tooltip+on+Sign+in+button
+#25: Should be able to see "View my shopping cart" tooltip on Cart button - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+see+%22View+my+shopping+cart%22+tooltip+on+Cart+button
+#26: Should be able to view 'Add to Cart' and 'More' button when mouse over on product - TestAssembly:AutomationTask/Feature:HomePage/Scenario:Should+be+able+to+view+%27Add+to+Cart%27+and+%27More%27+button+when+mouse+over+on+product
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #19 from normal test queue 
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AutomationTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sindalkar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #19/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view the menu 'WOMEN' , 'DRESSES' and 'T-SHIRTS'
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#19:Scheduler: reschedule tests for testitem #19
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #19
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #19/0 is finished on thread #0 as Failed within 8.3243438 seconds
+Thread#0: Test #19/1 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view the menu 'WOMEN' , 'DRESSES' and 'T-SHIRTS'
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #19
+Thread#0:Scheduler: considering testitem #19 for thread 0
+Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #19 for thread 0
+Thread#0:Scheduler: Test #19 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #19/1 is finished on thread #0 as Failed within 7.4536019 seconds
+Thread#0: Test #19/2 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view the menu 'WOMEN' , 'DRESSES' and 'T-SHIRTS'
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #20 from normal test queue 
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #19/2 is finished on thread #0 as Failed within 8.5888785 seconds
+Thread#0: Test #20/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view tooltip 'Contact Us' on 'Contact us' button
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#20:Scheduler: reschedule tests for testitem #20
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #20
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #20/0 is finished on thread #0 as Failed within 8.0443812 seconds
+Thread#0: Test #20/1 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view tooltip 'Contact Us' on 'Contact us' button
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #20
+Thread#0:Scheduler: considering testitem #20 for thread 0
+Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #20 for thread 0
+Thread#0:Scheduler: Test #20 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #20/1 is finished on thread #0 as Failed within 8.0988795 seconds
+Thread#0: Test #20/2 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view tooltip 'Contact Us' on 'Contact us' button
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #21 from normal test queue 
+Thread#0:Scheduler: considering testitem #21 for thread 0
+Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #21 for thread 0
+Thread#0:Scheduler: Test #21 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #20/2 is finished on thread #0 as Failed within 7.9773527 seconds
+Thread#0: Test #21/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:error: disconnected: unable to connect to renderer
+Thread#0:T:  (Session info: chrome=65.0.3325.181)
+Thread#0:T:  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.10586 x86_64) (102)
+Thread#0:B:Then I am able to view tooltip 'Women' on 'WOMEN' menu
+Thread#0:T:skipped because of previous errors
+Cancelling because configured number of failures reached
+Thread#0: Test #21/0 is finished on thread #0 as Failed within 8.391632 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #22 from normal test queue 
+Thread#-1:Scheduler: considering testitem #22 for thread -1
+Thread#-1:Scheduler: using testitem #22 for thread -1
+Thread#-1:Scheduler: Test #22 is scheduled for thread
+Thread#-1: Test #22/0 is started on thread #-1
+Thread#-1: Test #22/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #23 from normal test queue 
+Thread#-1:Scheduler: considering testitem #23 for thread -1
+Thread#-1:Scheduler: using testitem #23 for thread -1
+Thread#-1:Scheduler: Test #23 is scheduled for thread
+Thread#-1: Test #23/0 is started on thread #-1
+Thread#-1: Test #23/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #24 from normal test queue 
+Thread#-1:Scheduler: considering testitem #24 for thread -1
+Thread#-1:Scheduler: using testitem #24 for thread -1
+Thread#-1:Scheduler: Test #24 is scheduled for thread
+Thread#-1: Test #24/0 is started on thread #-1
+Thread#-1: Test #24/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #25 from normal test queue 
+Thread#-1:Scheduler: considering testitem #25 for thread -1
+Thread#-1:Scheduler: using testitem #25 for thread -1
+Thread#-1:Scheduler: Test #25 is scheduled for thread
+Thread#-1: Test #25/0 is started on thread #-1
+Thread#-1: Test #25/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #26 from normal test queue 
+Thread#-1:Scheduler: considering testitem #26 for thread -1
+Thread#-1:Scheduler: using testitem #26 for thread -1
+Thread#-1:Scheduler: Test #26 is scheduled for thread
+Thread#-1: Test #26/0 is started on thread #-1
+Thread#-1: Test #26/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8 (test executions: 12)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 5
+Failed: 3

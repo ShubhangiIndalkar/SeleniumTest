@@ -1,0 +1,84 @@
+﻿VS filter: testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Contact+Us+page+when+you+click+on+Contact+Us | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Contact+page+title+as+%27Contact+us+-+My+Store%27 | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+without+enter+email+address | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+with+email+id+and+without+enter+message | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+with+email+id+and+message+and+without+select+subject | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+success+message+when+you+enter+all+necessary+field+for+send+message | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Home+button+after+getting+success+message+of+send+message | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+enter+wrong+email+id | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+the+help+comment+when+select+Customer+Service+subject | testpath:TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+the+help+comment+when+select+Webmaster+subject
+Discovering target: Default
+Discovering tests from assembly: G:\AutomationTask\AutomationTask\bin\Debug\AutomationTask.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AutomationTask/Default - 
+#1: Default - 
+#2: AutomationTask - 
+#7: ContactUsPage - 
+#8: Should be able to view Contact Us page when you click on Contact Us - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Contact+Us+page+when+you+click+on+Contact+Us
+#9: Should be able to view Contact page title as 'Contact us - My Store' - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Contact+page+title+as+%27Contact+us+-+My+Store%27
+#10: Should be able to view Error message when you click on send button without enter email address - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+without+enter+email+address
+#11: Should be able to view Error message when you click on send button with email id and without enter message - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+with+email+id+and+without+enter+message
+#12: Should be able to view Error message when you click on send button with email id and message and without select subject - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+click+on+send+button+with+email+id+and+message+and+without+select+subject
+#13: Should be able to view success message when you enter all necessary field for send message - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+success+message+when+you+enter+all+necessary+field+for+send+message
+#14: Should be able to view Home button after getting success message of send message - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Home+button+after+getting+success+message+of+send+message
+#15: Should be able to view Error message when you enter wrong email id - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+Error+message+when+you+enter+wrong+email+id
+#16: Should be able to view the help comment when select Customer Service subject - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+the+help+comment+when+select+Customer+Service+subject
+#17: Should be able to view the help comment when select Webmaster subject - TestAssembly:AutomationTask/Feature:ContactUsPage/Scenario:Should+be+able+to+view+the+help+comment+when+select+Webmaster+subject
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AutomationTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sindalkar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (17.5s)
+Thread#0:B:And I click on 'Contact us'
+Thread#0:T:done: CommonSteps.GivenIclickOn("Contact us") (1.2s)
+Thread#0:B:Then I am able to view the 'Contact Us' page
+Thread#0:T:done: CommonSteps.ThenIAmAbleToViewThePage("Contact Us") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 19.2454018 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (28.0s)
+Thread#0:B:And I click on 'Contact us'
+Thread#0:T:done: CommonSteps.GivenIclickOn("Contact us") (0.9s)
+Thread#0:B:Then I am able to view the Contact Us page title as 'Contact us - My Store'
+Thread#0:T:done: CommonSteps.ThenIAmAbleToViewTheContactUsPageTitleAs("Contact us - My S...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread 0
+Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #10 for thread 0
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 29.0264314 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given I open AutomationPractice site
+Thread#0:T:done: HomePageSteps.GivenIOpenAutomationPracticeSite() (27.9s)
+Thread#0:B:And I click on 'Contact us'
+Thread#0:T:done: CommonSteps.GivenIclickOn("Contact us") (1.0s)
+Thread#0:B:When I click on 'Send' button
+Thread#0:T:done: CommonSteps.GivenIclickOn("Send") (1.1s)
+Thread#0:B:Then I am able to view the Error message as 'Invalid email address.' on 'Contact us' page
+Thread#0:T:done: CommonSteps.ThenIAmAbleToViewTheErrorMessageAsOnPage("Invalid email add...", "Contact us") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread 0
+Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #11 for thread 0
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler
